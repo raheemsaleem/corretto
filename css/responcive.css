@@ -17,6 +17,13 @@
         margin-right: 20px;
         gap: 10px;
     }
+    .hero-img .contant-hero h1{
+        font-size: 35px !important;
+    }
+    .hero-card .card{
+        width: 19rem !important;
+        margin-top: 10px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -37,6 +44,10 @@
         gap: 10px;
         margin-top: 10px;
     }
+    .hero-card .card{
+        width: 22rem !important;
+        margin-top: 10px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -44,7 +55,16 @@
     .footer-nav ul{
         margin-left: 0px;
     }
+    .hero-card .card{
+        width: 14rem !important;
+        margin-top: 10px;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
+@media only screen and (min-width: 1200px) {
+    .hero-card .card{
+        width: 19rem !important;
+        margin-top: 10px;
+    }
+}
