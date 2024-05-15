@@ -24,11 +24,20 @@
         width: 19rem !important;
         margin-top: 10px;
     }
+    .about-card .card-body p{
+        font-size: 14px;
+        overflow: hidden;
+    }
+    .carousel-caption p{
+        position: absolute;
+        bottom: 18px !important;
+        font-size: 14px;
+        }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    
+     
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -48,6 +57,11 @@
         width: 22rem !important;
         margin-top: 10px;
     }
+    .about-card .card-body p{
+        font-size: 16px;
+        overflow: hidden;
+    }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -59,12 +73,20 @@
         width: 14rem !important;
         margin-top: 10px;
     }
+    .about-card .card-body p{
+        font-size: 22px;
+        overflow: hidden;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .hero-card .card{
-        width: 19rem !important;
+        width: 17rem !important;
         margin-top: 10px;
+    }
+    .about-card .card-body p{
+        font-size: 26px;
+        overflow: hidden;
     }
 }

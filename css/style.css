@@ -171,28 +171,28 @@ font-size: 60px;
     right: 10px;
   }
   
-  
-  /* FOOTER STYLES
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
-  .page-footer {
-    position: fixed;
-    right: 0;
-    bottom: 60px;
-    display: flex;
-    align-items: center;
-    font-size: 1rem;
-    padding: 5px;
-    background: rgba(255, 255, 255, 0.65);
+  .coffee-logs img{
+    width: 100%;
+    margin-top: 10px;
   }
-  
-  .page-footer a {
-    display: flex;
-    margin-left: 9px;
+  .about-card .card{
+    width: 100%;
+    height: 450px;
   }
-  
-
-
-
+ .about-card .card-ar img{
+width: 100%;
+height: 250px; 
+  }
+  /* *****************************carsouse-page1************************************8 */
+.carsouse-page1 .carousel-inner .carousel-item img{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.carousel-caption p{
+position: absolute;
+bottom: 100px;
+}
 
 
 
