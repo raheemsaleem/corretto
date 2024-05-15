@@ -193,7 +193,27 @@ height: 250px;
 position: absolute;
 bottom: 100px;
 }
-
+.cb-img img{
+    position: relative;
+    display: flex;
+float: left;
+width: 70px;
+height: 70px;
+margin-top: 5px;
+}
+.cb-all{
+    margin-top: 10px;
+}
+.cb-all p{
+    position: relative;
+    margin-left: 50px;
+    float: left;
+}
+.cb-all .doler{
+position: relative;
+float: right;
+margin-left: 318px;
+}
 
 
 

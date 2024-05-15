@@ -33,6 +33,22 @@
         bottom: 18px !important;
         font-size: 14px;
         }
+        .cb-all p{
+            font-size: 12px;
+        }
+        .cb-all .doler{
+            position: relative;
+            float: right;
+            margin-left: 130px !important;
+            font-size: 14px;
+            }
+            .cb-all p{
+                position: relative;
+                margin-left: 22px !important;
+                float: left;
+                font-size: 14px;
+            }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -61,6 +77,18 @@
         font-size: 16px;
         overflow: hidden;
     }
+    .cb-all .doler{
+        position: relative;
+        float: right;
+        margin-left: 100px !important;
+        font-size: 14px;
+        }
+        .cb-all p{
+            position: relative;
+            margin-left: 22px !important;
+            float: left;
+            font-size: 12px;
+        }
 
 }
 
@@ -77,6 +105,18 @@
         font-size: 22px;
         overflow: hidden;
     }
+    .cb-all .doler{
+        position: relative;
+        float: right;
+        margin-left: 200px !important;
+        font-size: 14px;
+        }
+        .cb-all p{
+            position: relative;
+            margin-left: 22px !important;
+            float: left;
+            font-size: 18px;
+        }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -88,5 +128,8 @@
     .about-card .card-body p{
         font-size: 26px;
         overflow: hidden;
+    }
+    .cb-all p{
+        font-size: 16px;
     }
 }
